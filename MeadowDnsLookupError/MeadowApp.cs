@@ -19,8 +19,8 @@ namespace MeadowDnsLookupError
         IWiFiNetworkAdapter _wifi;
 
         string serverName = "wildernesslabs.co";
-        string ssid = "AllynTech-IoT";
-        string wpa = "allyntech5510";
+        string ssid = "YOUR_SSID";
+        string wpa = "YOUR_WIFI_PASS";
         int timeoutSeconds = 60;
 
         public override async Task Initialize()
